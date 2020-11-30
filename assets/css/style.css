@@ -54,14 +54,39 @@ body{
     padding-right: 10px;
 }
 
-.topics-menu{
-    margin-left: auto;
-    margin-right: 10px;
-}
-
 .navbar a.btn{
     background-color: #eb008d;
     padding: 12px;
     border-radius: 30px;
     color: white;
 }
+
+/* Sezione topics-menu */
+.topics-menu{
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.topic{
+    position: relative;
+}
+
+.sub-menu{
+    width: 180px; 
+    position: absolute;
+    box-shadow:  0 0 12px  grey;
+    transform: translateX(-40%);
+    border-radius: 5px;
+    display: none;
+}
+
+.sub-menu > ul{
+    width: 100%;
+}
+.sub-menu > ul> li{
+    text-align: center;
+}
+
+/* .topic:hover > .sub-menu{
+    display: block;
+} */
