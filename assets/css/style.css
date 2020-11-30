@@ -87,6 +87,10 @@ body{
     text-align: center;
 }
 
-/* .topic:hover > .sub-menu{
-    display: block;
-} */
+.big-menu{
+    width: 400px;
+}
+
+.big-menu > ul {
+    width: 50%;
+}
